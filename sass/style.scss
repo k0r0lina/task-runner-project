@@ -1,3 +1,55 @@
 //font-family: "Sevillana", cursive;
 //font-family: "Namdhinggo", serif;
 //font-family: "Palanquin Dark", sans-serif;
+
+$font-logo: "Sevillana", cursive;
+$font-title: "Palanquin Dark", sans-serif;
+$font-subtitle: "Namdhinggo", serif;
+$primary-color: #777777;
+$color-logo: #fed136;
+$title-color: #222222;
+
+// Global //
+
+body {
+    font-family: $font-subtitle;
+    color: $primary-color;
+}
+
+// Header //
+
+.home {
+    padding: 12px 0;
+    background: inherit;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 25px;
+}
+.logo a {
+    font-family: $font-logo;
+    font-weight: 700;
+    color: $color-logo;
+    text-decoration: none;
+}
+
+.menu {
+    display: inline-block;
+}
+.menu ul {
+    font-family: $font-title;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.menu li {
+    display: inline-block;
+    margin: 0 36px 0 0;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: $color-logo;
+}
