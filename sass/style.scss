@@ -110,3 +110,39 @@ header {
 .home-captions .btn:hover {
     background-color: #eec327;
 }
+
+// Services //
+
+.services {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.section-title, .card {
+    margin-bottom: 75px;
+}
+
+.section-title h3 {
+    font-family: $font-title;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1.6px;
+    margin-bottom: 0;
+}
+.section-title p {
+    margin-top: 0;
+    color: $subtitle-color;
+}
+
+.card-icon {
+    color: $color-logo;
+    font-size: 30px;
+}
+.card-body h4 {
+    font-family: $font-title;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+.card-body p {
+    color: $subtitle-color;
+}
