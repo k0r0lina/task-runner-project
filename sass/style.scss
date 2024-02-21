@@ -14,13 +14,13 @@ $subtitle-color: #777777;
 body {
     font-family: $font-subtitle;
     color: $primary-color;
+    margin: 0;
 }
 
 // Header //
 
 header {
     padding: 12px 0;
-    background: inherit;
     align-content: center;
 }
 
@@ -50,9 +50,63 @@ header {
     margin: 0 36px 0 0;
 }
 .menu a {
-    color: black;
+    color: #ffffff;
     text-decoration: none;
 }
 .menu a:hover {
     color: $color-logo;
+}
+
+// Home //
+
+.home-header {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+        ),
+        url("/images/1.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.home-captions {
+    text-align: center;
+    margin: auto;
+    max-width: 70%;
+    padding-top: 160px;
+    color: #ffffff;
+}
+.home-captions h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: $font-title;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    line-height: 75px;
+    font-size: 50px;
+}
+.home-captions h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 100;
+}
+.home-captions .btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 13px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: $font-title;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: $color-logo;
+    color: #ffffff;
+}
+.home-captions .btn:hover {
+    background-color: #eec327;
 }
