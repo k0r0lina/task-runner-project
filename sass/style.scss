@@ -5,9 +5,9 @@
 $font-logo: "Sevillana", cursive;
 $font-title: "Palanquin Dark", sans-serif;
 $font-subtitle: "Namdhinggo", serif;
-$primary-color: #777777;
+$primary-color: #222222;
 $color-logo: #fed136;
-$title-color: #222222;
+$subtitle-color: #777777;
 
 // Global //
 
@@ -18,9 +18,10 @@ body {
 
 // Header //
 
-.home {
+header {
     padding: 12px 0;
     background: inherit;
+    align-content: center;
 }
 
 .logo {
@@ -36,6 +37,8 @@ body {
 
 .menu {
     display: inline-block;
+    width: 90%;
+    text-align: right;
 }
 .menu ul {
     font-family: $font-title;
